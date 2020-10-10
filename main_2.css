@@ -1,0 +1,32 @@
+header{
+    margin-left: 55px;
+}
+
+.title{
+    margin-right: 355px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: -1.5px;
+    font-style: bolder;
+}
+
+.subtitle{
+    margin-right: 550px;
+    font-family:'Commissioner', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+
+}
+
+.avatar_autor{
+    width: 39.8px;
+    height: 39.8px;
+    border-radius: 50%;
+    }
+
+p {
+    margin-left:55px;
+    margin-right: 650px;
+    line-height: 28px;
+    }
+    
