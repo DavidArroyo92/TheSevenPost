@@ -1,0 +1,32 @@
+.illustration, .motherb, .title, .subtitle, .author, .date{
+    margin-left:350px;
+}
+.img1{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.avatar_autor{
+width: 39.8px;
+height: 39.8px;
+border-radius: 50%;
+}
+
+p, .others{
+    margin-left: 350px;
+    margin-right: 300px;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: -1.5px;
+    font-style: bolder;
+}
+
+.subtitle{
+    font-family:'Commissioner', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+
+}
