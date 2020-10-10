@@ -1,5 +1,5 @@
-.illustration, .motherb, .title, .subtitle, .author, .date{
-    margin-left:350px;
+.motherb, .title, .subtitle{
+    margin-left: 350px;
 }
 .img1{
     margin-top: 0px;
@@ -15,6 +15,7 @@ border-radius: 50%;
 p, .others{
     margin-left: 350px;
     margin-right: 300px;
+    line-height: 28px;
 }
 
 .title{
@@ -30,3 +31,12 @@ p, .others{
     font-style: normal;
 
 }
+
+h6{
+    font-style: helvetica;
+    font-size: 10px;
+    margin-left: 350px;
+    margin-right: 300px;
+    line-height: 22px;
+}
+
