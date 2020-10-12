@@ -162,3 +162,7 @@ html body a {
     font-family:'Montserrat', sans-serif;
     padding-left: 10px;
 }
+
+a:hover{
+    color: darkgray;
+}
