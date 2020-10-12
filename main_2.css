@@ -1,21 +1,49 @@
-header{
-    margin-left: 55px;
+body{
+    width: 1215.03px;
+    height: 1200.39px;
+    margin-left:  63px;
+    margin-right: 14px;
+}
+
+.motherb{
+    margin-top: 40px;
+    border-top: 4px solid black;
+    padding-top: 25px;
+    width: 1180px;
+    height: 38px;
 }
 
 .title{
-    margin-right: 355px;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 1180px;
+    height: 130px;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 25px;
-    letter-spacing: -1.5px;
-    font-style: bolder;
+}
+.author{
+    width: 640px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
 }
 
-.subtitle{
-    margin-right: 550px;
-    font-family:'Commissioner', sans-serif;
-    font-size: 21px;
-    font-style: normal;
-
+.avatar_meta{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 8px;
+}
+.img_1{
+    width: 640px;
+    height:358.39px;
+}
+.subtitle h4{
+    width: 640px;
+    height: 102px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    line-height: 28px;
 }
 
 .avatar_autor{
@@ -24,9 +52,113 @@ header{
     border-radius: 50%;
     }
 
-p {
-    margin-left:55px;
-    margin-right: 650px;
-    line-height: 28px;
+.date{
+    display: flex;
+    align-items: center;
+}
+
+.date span {
+    font-size: 12px;
+}
+.date a {
+    font-size: 12px;
+}
+.date ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+.social_icon{
+    width: 15px;
+    height: auto;
+    margin-left: 20px;
+}
+section{
+    padding-top: 50px;
+    width: 640px;
+    height: 1100px;
+    float: left;
     }
+
+section p {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Piazzolla', serif;
     
+
+}
+    
+aside{
+    width: 32%;
+    height: 1380px;
+    float:right;
+    border-left: 1px solid lightgray;
+    margin-left: 110px;
+}
+
+.aside_name {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding-left: 88px;
+
+}  
+
+.aside_items{
+    list-style: none;
+    padding-left: 88px;
+   
+}
+
+.card_aside{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid lightgray ;
+}
+
+.content_aside{
+    width: 220px;
+    height: 134px;
+    text-align: left;
+}
+
+.aside_photo{
+    float:right;
+    width:80px;
+    height: auto;
+}
+
+.aside_author, .aside_title, .aside_cop, .aside_date{
+    padding-bottom: 10px;
+}
+.aside_author, .aside_date{
+    font-size: 10px;
+    font-style: 'Montserrat', sans-serif;
+}
+
+.aside_cop a{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.aside_title a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+html body a {
+    color: black;
+}
+
+.tags{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin top: 20px;
+    margin-bottom: 50px;
+}
+
+.tags a{
+    font-family:'Montserrat', sans-serif;
+    padding-left: 10px;
+}
