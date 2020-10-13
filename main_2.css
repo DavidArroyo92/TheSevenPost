@@ -17,7 +17,12 @@ body{
     width: 1180px;
     height: 130px;
     font-family: 'Archivo Black', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
+}
+
+h1{
+    font-weight: bolder;
+    word-spacing: -10px;
 }
 .author{
     width: 640px;
@@ -74,7 +79,7 @@ body{
     margin-left: 20px;
 }
 section{
-    padding-top: 50px;
+    margin-top: 240px;
     width: 640px;
     height: 1100px;
     float: left;
@@ -82,7 +87,6 @@ section{
 
 section p {
     font-size: 18px;
-    font-weight: normal;
     font-family: 'Piazzolla', serif;
     
 
@@ -161,8 +165,31 @@ html body a {
 .tags a{
     font-family:'Montserrat', sans-serif;
     padding-left: 10px;
+    font-size: 8px;
+    line-height: 18px;
+}
+.tagged{
+    font-family:'Montserrat', sans-serif;
+    font-size: 8px;
+
 }
 
 a:hover{
     color: darkgray;
+}
+
+.link{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:left;
+}
+
+.figcaption{
+    font-size: 10px;
+    font-style: 'Montserrat', sans-serif;
+}
+
+article{
+    margin-top: 130px;
 }
